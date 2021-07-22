@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+background-color: #325288 ;
+
+}
+header{
+    height: 70px;
+    background-color: #393E46;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+.lista{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE;
+    font-family: 'Cinzel', serif;
+
+}
+a{
+
+text-decoration: none;
+color: #EEEEEE;
+}
+
+#logo{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+}
+a.enlaceMenu{
+
+    transition: border .2s ;
+    padding: 5px 5px 5px 5px;
+}
+
+a.enlaceMenu:hover{
+    border: 2px solid white;
+}
+.menuLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+
+.imagen{
+    width: 160px;
+    height: 80px;
+}
+.containerPrincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    animation-name: entrada;
+    animation-duration: 4s;
+}
+
+@keyframes entrada {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.container1{
+    border: 2px solid #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    background-color: #EEEEEE;
+    color: #393E46;
+    font-family: 'Cinzel', serif;
+    border-radius: 6px ;
+    
+}
